@@ -22,11 +22,30 @@ class TTextStyles {
     color: TColors.mainBlue,
   );
 
+  static TextStyle font18DarkBlueBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: TFontWeight.bold,
+    color: TColors.darkBlue,
+  );
+
+  static TextStyle font18WhiteMedium = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: TFontWeight.medium,
+    color: Colors.white,
+  );
+
   static TextStyle font16WhiteSemiBold = TextStyle(
     fontSize: 16.sp,
     fontWeight: TFontWeight.semiBold,
     color: Colors.white,
   );
+
+  static TextStyle font16DarkBluBlod = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: TFontWeight.bold,
+    color: TColors.darkBlue,
+  );
+
   static TextStyle font15DarkBlueMedium = TextStyle(
     fontSize: 15.sp,
     fontWeight: TFontWeight.medium,
@@ -82,6 +101,30 @@ class TTextStyles {
 
   static TextStyle font10GrayRegular = TextStyle(
     fontSize: 13.sp,
+    fontWeight: TFontWeight.normal,
+    color: TColors.grey,
+  );
+
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: TFontWeight.normal,
+    color: TColors.mainBlue,
+  );
+
+  static TextStyle font12DarkBlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: TFontWeight.normal,
+    color: TColors.darkBlue,
+  );
+
+  static TextStyle font12GrayRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: TFontWeight.normal,
+    color: TColors.grey,
+  );
+
+  static TextStyle font11GrayRegular = TextStyle(
+    fontSize: 11.sp,
     fontWeight: TFontWeight.normal,
     color: TColors.grey,
   );
