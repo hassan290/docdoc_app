@@ -73,6 +73,8 @@ dependencies:
   # An SVG rendering and widget library for Flutter, which allows painting SVG images as widgets on Flutter
   flutter_svg: ^2.0.10+1
   intl_phone_number_input: ^0.7.4
+  badges: ^3.1.2
+  font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
   flutter_test:
